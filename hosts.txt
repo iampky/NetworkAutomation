@@ -1,0 +1,11 @@
+[dc1]
+dc1-spine01     ansible_host=3.82.135.197
+
+[dc2]
+dc2-spine01     ansible_host=3.82.135.197
+
+[spine]
+dc[1:2]-spine0[1:2]
+
+[netbox]
+netbox  ansible_host=netbox.nexariacloud.com:8000
