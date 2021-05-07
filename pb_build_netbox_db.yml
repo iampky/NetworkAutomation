@@ -1,6 +1,6 @@
 ---
 - name: Populate NetBox DataBase
-hosts: dc1, dc2
+hosts: all
 gather_facts: no
 vars:
 ansible_connection: local
