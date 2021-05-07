@@ -1,9 +1,9 @@
-[dc1]
+[DC1]
 CSR01     ansible_host=10.250.204.21
 CSR02     ansible_host=10.250.204.22
 CSR03     ansible_host=10.250.204.23
 
-[dc2]
+[DC2]
 CSR01     ansible_host=10.250.204.21
 CSR02     ansible_host=10.250.204.22
 CSR03     ansible_host=10.250.204.23
