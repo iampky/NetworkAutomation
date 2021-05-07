@@ -7,6 +7,3 @@ CSR03     ansible_host=10.250.204.23
 CSR01     ansible_host=10.250.204.21
 CSR02     ansible_host=10.250.204.22
 CSR03     ansible_host=10.250.204.23
-
-[netbox]
-netbox.nexariacloud.com:8000
