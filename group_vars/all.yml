@@ -3,9 +3,6 @@ netbox_url: http://23.23.250.135:8000/
 netbox_token: b8753bb0a6f52c36893314285ce761f369c81810
 
 sites:
-  - name: DC1
+  - name: CSR01
     description: "Main Data Center in Sydney"
     location: Sydney
-  - name: DC2
-    description: "Main Data Center in KSA"
-    location: Riyadh
