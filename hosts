@@ -1,12 +1,5 @@
-[DC1]
+[CSR01]
 CSR01     ansible_host=10.250.204.21
-CSR02     ansible_host=10.250.204.22
-CSR03     ansible_host=10.250.204.23
-
-[DC2]
-CSR01     ansible_host=10.250.204.21
-CSR02     ansible_host=10.250.204.22
-CSR03     ansible_host=10.250.204.23
 
 [netbox]
 netbox ansible_host=23.23.250.135
