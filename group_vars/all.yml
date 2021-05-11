@@ -1,6 +1,6 @@
 ---
 netbox_url: http://23.23.250.135:8000/
-netbox_token: b8753bb0a6f52c36893314285ce761f369c81810
+netbox_token: 0123456789abcdef0123456789abcdef01234567
 
 sites:
   - name: CSR01
