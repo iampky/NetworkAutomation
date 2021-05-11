@@ -4,5 +4,3 @@ netbox_token: b8753bb0a6f52c36893314285ce761f369c81810
 
 sites:
   - name: CSR01
-    description: "Main Data Center in Sydney"
-    location: Sydney
