@@ -1,6 +1,6 @@
 ---
 plugin: netbox
-api_endpoint: http://23.23.250.135
+api_endpoint: http://23.23.250.135:8000
 token: b8753bb0a6f52c36893314285ce761f369c81810
 group_by:
   - device_roles
