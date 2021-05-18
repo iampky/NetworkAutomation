@@ -1,5 +1,5 @@
 ---
-netbox_url: http://23.23.250.135:8000/
+netbox_url: http://23.23.250.135:8000
 netbox_token: 0123456789abcdef0123456789abcdef01234567
 
 sites:
