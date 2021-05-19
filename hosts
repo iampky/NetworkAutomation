@@ -1,32 +1,20 @@
-[all vars]
-ansible_user=apiuser
-ansible_ssh_pass=Nexaria@1
-ansible_connection_timeout: 120
-ansible_python_interpreter: /usr/bin/python3
 [cisco]
 CSR01 ansible_host=10.250.204.21
 CSR02 ansible_host=10.250.204.22
 CSR03 ansible_host=10.250.204.23
+
 [eos]
 ARISTA01 ansible_host=10.250.204.24
 ARISTA02 ansible_host=10.250.204.25
+
 [paloalto]
 PALO01 ansible_host=10.250.204.26
+
 [fortinate]
 FORT01 ansible_host=10.250.204.27
+
 [nxos]
 NXOS01 ansible_host=10.250.204.28
+
 [juniper]
 JUNOS01 ansible_host=10.250.204.29
-[cisco vars]
-ansible_network_os=ios
-[eos vars]
-ansible_network_os=arista.eos.eos
-[fortinate vars]
-ansible_network_os=fortinet.fortios.fortios
-[juniper vars]
-ansible_network_os=junos
-[paloalto vars]
-ansible_network_os=panos
-[nxos vars]
-ansible_network_os=cisco.nxos.nxos
