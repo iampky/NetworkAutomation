@@ -1,4 +1,4 @@
-[cisco]
+[cisco] ansible_network_os=ios
 CSR01 ansible_host=10.250.204.21
 CSR02 ansible_host=10.250.204.22
 CSR03 ansible_host=10.250.204.23
