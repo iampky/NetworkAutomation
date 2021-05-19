@@ -1,4 +1,4 @@
-[all:vars]
+[all vars]
 ansible_user=apiuser
 ansible_ssh_pass=Nexaria@1
 ansible_connection_timeout: 120
@@ -18,15 +18,15 @@ FORT01 ansible_host=10.250.204.27
 NXOS01 ansible_host=10.250.204.28
 [juniper]
 JUNOS01 ansible_host=10.250.204.29
-[cisco:vars]
+[cisco vars]
 ansible_network_os=ios
-[eos:vars]
+[eos vars]
 ansible_network_os=arista.eos.eos
-[fortinate:vars]
+[fortinate vars]
 ansible_network_os=fortinet.fortios.fortios
-[juniper:vars]
+[juniper vars]
 ansible_network_os=junos
-[paloalto:vars]
+[paloalto vars]
 ansible_network_os=panos
-[nxos:vars]
+[nxos vars]
 ansible_network_os=cisco.nxos.nxos
