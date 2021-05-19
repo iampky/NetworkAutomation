@@ -20,19 +20,19 @@ NXOS01 ansible_host=10.250.204.28
 JUNOS01 ansible_host=10.250.204.29
 
 [cisco:vars]
-os=ios
+ansible_network_os=ios
 
 [eos:vars]
-os=arista.eos.eos
+ansible_network_os=eos
 
 [fortinate:vars]
-os=fortinet.fortios.fortios
+ansible_network_os=fortinate
 
 [juniper:vars]
-os=junos
+ansible_network_os=junos
 
 [paloalto:vars]
-os=panos
+ansible_network_os=panos
 
 [nxos:vars]
-os=cisco.nxos.nxos
+ansible_network_os=nxos
