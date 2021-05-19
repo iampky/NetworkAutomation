@@ -1,38 +1,21 @@
-[cisco] ansible_network_os=ios
-CSR01 ansible_host=10.250.204.21
-CSR02 ansible_host=10.250.204.22
-CSR03 ansible_host=10.250.204.23
+[cisco] 
+CSR01 ansible_host=10.250.204.21 ansible_network_os=ios
+CSR02 ansible_host=10.250.204.22 ansible_network_os=ios
+CSR03 ansible_host=10.250.204.23 ansible_network_os=ios
+
 
 [eos]
-ARISTA01 ansible_host=10.250.204.24
-ARISTA02 ansible_host=10.250.204.25
+ARISTA01 ansible_host=10.250.204.24 ansible_network_os=eos
+ARISTA02 ansible_host=10.250.204.25 ansible_network_os=eos
 
 [paloalto]
-PALO01 ansible_host=10.250.204.26
+PALO01 ansible_host=10.250.204.26 ansible_network_os=panos
 
 [fortinate]
-FORT01 ansible_host=10.250.204.27
+FORT01 ansible_host=10.250.204.27 ansible_network_os=fortinate
 
 [nxos]
-NXOS01 ansible_host=10.250.204.28
+NXOS01 ansible_host=10.250.204.28 ansible_network_os=nxos
 
 [juniper]
-JUNOS01 ansible_host=10.250.204.29
-
-[cisco:vars]
-ansible_network_os=ios
-
-[eos:vars]
-ansible_network_os=eos
-
-[fortinate:vars]
-ansible_network_os=fortinate
-
-[juniper:vars]
-ansible_network_os=junos
-
-[paloalto:vars]
-ansible_network_os=panos
-
-[nxos:vars]
-ansible_network_os=nxos
+JUNOS01 ansible_host=10.250.204.29 ansible_network_os=junos
